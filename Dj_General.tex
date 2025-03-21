@@ -1,0 +1,113 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Dan Jeryll R. Almaden}
+\address{Lapu-Lapu City, Philippines 6015}
+\contacts{(+63) 916 598 0287 \linebreak almadendj@gmail.com \linebreak github.com/almadendj \linebreak}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Professional Summary
+	\begin{cvsection}{Professional Summary}
+		\begin{cvsubsection}{}{}{}
+      Software Engineer with 4 years of expertise in blockchain systems and high-scale financial platforms. Proven track record in architecting solutions processing 10M+ transactions and optimizing performance by 90\%. Specialized in Rust, Solana/EVM development, and building scalable microservices.
+    \end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Technical Skills}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+        \item \textbf{Frontend:} React, React Native, Next.js, Flutter, jQuery  
+        \item \textbf{Backend:} Node.js, Axum, Tokio, NestJS, Django, Express.js  
+        \item \textbf{Blockchain:} Solana, Ethereum, EVM, Smart Contracts (Solidity), Web3.js/ethers.js, Transaction Indexing  			
+      \end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	% Print the content
+	\begin{cvsection}{Work Experience}
+		\begin{cvsubsection}{Software Engineer}{ARData Technologies}{2024 - 2025}		
+			\begin{itemize}
+        \item Designed and implemented an enterprise-grade balance sheet system capable of processing 10M+ transactions with optimized query performance
+				\item Architected and developed blockchain indexers for Solana and Ethereum, achieving complete historical data capture including complex recursive staking operations
+        \item Created a high-throughput CSV import system handling 30k+ Solana accounts in a single batch, reducing manual data entry time by over 95\%
+        \item Resolved critical performance bottleneck in EVM indexing system, enabling smooth processing of 10M+ transactions and eliminating data loss for high-volume accounts, ensuring 100\% transaction capture
+        \item Redesigned balance calculation logic by implementing SQL aggregation queries, reducing computation time by approximately 90\% and enabling real-time processing of blockchain account data with 10M+ transactions
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Front End Developer}{AILAB - IT Solutions}{2023 -2024}		
+			\begin{itemize}
+				\item Led development of a React Native cryptocurrency exchange interface (Coinsher), currently in the Google Play Store, it has 1k+ official downloads.
+				\item Spearheaded the front-end architecture for a cryptocurrency referral system, collaborating with back-end team to deliver a robust solution that scales to 10,000+ users with capacity to process thousands of concurrent referral transaction
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Full Stack Developer}{AILAB - IT Solutions}{2021 - 2023}
+			\begin{itemize}
+				\item Developed and deployed full-stack e-commerce and referral systems for networking companies, generating 1M+ PHP in revenue per month.
+				\item Created an AI-powered configuration recommendation system utilizing OpenAI API that reduced manual configuration time by 70\%
+        \item Mentored 2 junior developers and collaborated with senior team members to build a cross-platform social media application using Flutter for Android and iOS
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Technical Projects}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Multi-chain EVM Indexer} (2025) - Designed and built a high-performance blockchain indexer handling millions of transactions using NestJS, TypeScript, and PostgreSQL. Implemented fault-tolerant architecture with Bull queue system. \textit{https://github.com/almadendj/arb-indexer}
+				\item \textbf{University Payment System} (2023) - Engineered a comprehensive payment solution for the University of Cebu using ElectronJS and Rust with Tokio runtime. Containerized with Docker for simplified deployment and maintenance. Implemented financial record exports to Excel and CSV. \textit{https://github.com/fallen-engineers/backend-api}
+				\item \textbf{Enterprise Web Applications} (2021-2023) - Developed high-traffic web applications for commercial clients, with one solution achieving 20k peak concurrent monthly visitors. Utilized NextJS and modern front-end technologies to create responsive, optimized user experiences.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Mandaue, Cebu}{University of Cebu - LM}{2022 -- Present (part-time)}
+			\begin{itemize}
+				\item BS Computer Engineering, Expected graduation: 2026
+				\item Relevant Coursework: Operating Systems; Databases; Algorithms; Programming Languages; Computer Architecture; Calculus III
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Tech Speaker (2025):} Presented "Rust for Web" at the Philippines' first grassroots Rust conference sponsored by The Rust Foundation, educating 100+ developers on modern Rust web development patterns
+				\item \textbf{Tech Speaker (March 2025): } Hosting a seminar on Rust Programming Language for graduating students at the University of Cebu scheduled for March 28, 2025
+				\item \textbf{Hackathon Finalist (2024): } Secured first place for project proposal and 6th place overall at the Google Developer Student Club - Loyola hackathon among 25+ competing teams (100+ total participants)
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
