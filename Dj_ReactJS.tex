@@ -1,0 +1,132 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Dan Jeryll R. Almaden}
+\address{Lapu-Lapu City, Philippines 6015}
+\contacts{(+63) 916 598 0287 \linebreak almadendj@gmail.com \linebreak github.com/almadendj \linebreak}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Professional Summary
+	\begin{cvsection}{Professional Summary}
+		\begin{cvsubsection}{}{}{}
+      Senior React Developer with 4+ years of specialized experience building high-scale financial applications and enterprise-grade user interfaces. Led development of complete cryptocurrency exchange platforms serving 1000+ active users, architecting React/React Native solutions from conception to production. Proven expertise in React ecosystem optimization, team leadership, and delivering performant applications in regulated financial environments. Experienced in mentoring developers, conducting code reviews, and implementing React best practices across distributed teams.
+    \end{cvsubsection}
+	\end{cvsection}
+
+  \begin{cvsection}{React \& Frontend Expertise}
+    \begin{cvsubsection}{}{}{}	
+      \begin{itemize}
+        \item \textbf{React Ecosystem:} React (4+ years), React Native, Next.js, TypeScript, Redux, Context API, React Router, TanStack Query
+        \item \textbf{Performance \& Optimization:} Lazy loading, memoization, code splitting, component modularization, state management optimization
+        \item \textbf{Testing \& Quality:} Cypress, Jest, code reviews, TypeScript migrations, accessibility compliance, cross-browser compatibility
+        \item \textbf{UI/UX Technologies:} Tailwind CSS, Bootstrap, responsive design, mobile-first development, design system implementation
+        \item \textbf{Development Tools:} GitHub Actions, CI/CD pipelines, Docker, PM2, version control workflows, collaborative development
+        \item \textbf{Backend Integration:} RESTful APIs, Node.js, Express.js, real-time data handling, financial transaction processing
+        \item \textbf{Additional Technologies:} Rust, PostgreSQL, MongoDB, Kubernetes, microservices architecture, blockchain integration
+      \end{itemize}
+    \end{cvsubsection}
+  \end{cvsection}	
+
+	% Print the content
+	\begin{cvsection}{Professional Experience}
+		\begin{cvsubsection}{Senior Software Engineer (React)}{ARData Technologies}{2024 - 2025}		
+			\begin{itemize}
+        \item Lead React developer responsible for 80\% frontend architecture and development across multiple high-scale financial applications
+        \item Architected and maintained React interfaces processing 10M+ financial transactions with optimized component rendering and state management
+        \item Implemented advanced React patterns including custom hooks, context providers, and aggressive caching strategies reducing component load times by 80\% through pre-authentication data fetching
+        \item Designed responsive React dashboards for enterprise clients handling 30k+ data records with efficient pagination and real-time updates
+        \item Collaborated with distributed international teams using GitHub workflows, conducting regular React code reviews and establishing component standards
+        \item Mentored team members on React best practices, TypeScript integration, and modern development patterns
+        \item Resolved critical performance bottlenecks in React applications, implementing lazy loading and memoization strategies for large datasets
+			\end{itemize}
+		\end{cvsubsection}
+
+		\pagebreak
+		
+		\begin{cvsubsection}{Lead React Developer}{AILAB - IT Solutions}{2023 - 2024}
+			\begin{itemize}
+				\item Led complete development of Coinsher cryptocurrency exchange React Native mobile application with 4-member development team, achieving 1k+ downloads on Google Play Store
+				\item Architected comprehensive React web interface for cryptocurrency exchange from scratch, managing complex financial workflows including P2P trading, swaps, deposits, and withdrawals
+				\item Spearheaded migration from JavaScript to TypeScript across entire React codebase, improving code quality and developer experience
+				\item Implemented React Context API refactoring to eliminate prop drilling, creating more maintainable and modular component architecture
+				\item Built responsive React admin dashboard managing user statistics, KYC approvals, and transaction monitoring with real-time data visualization
+				\item Optimized React application performance implementing intelligent caching strategies and background data fetching, reducing authenticated user loading times by 80\% for market data and critical components
+				\item Conducted comprehensive code reviews and established React coding standards for development team
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Full Stack Developer (React)}{AILAB - IT Solutions}{2021 - 2023}
+			\begin{itemize}
+				\item Developed React-based e-commerce and MLM admin dashboards for networking companies, supporting applications generating 1M+ PHP monthly revenue
+				\item Led React frontend architecture for social media application, coordinating 4-member development team as Lead Frontend Developer with focus on component reusability and performance
+				\item Migrated legacy Bootstrap implementations to Tailwind CSS, resolving class conflicts and improving component consistency across React applications
+				\item Created multiple React Native mobile applications with rapid development cycles (1-week delivery), demonstrating expertise in cross-platform development
+				\item Implemented React performance optimizations including component memoization, lazy loading, and efficient state management patterns
+				\item Established GitHub-based development workflows and CI/CD pipelines for React applications, improving team collaboration and deployment reliability
+				\item Mentored 2 junior developers on React best practices, component design patterns, and modern development methodologies
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{React Projects \& Applications}
+		\begin{cvsubsection}{Featured React Development}{}{}
+			\begin{itemize}
+				\item \textbf{Coinsher Cryptocurrency Exchange} (2023-Present) - Complete React/React Native ecosystem including web interface, mobile app, and admin dashboard. Built from scratch with complex financial workflows, real-time trading, P2P systems, and regulatory compliance features. \newline \textit{https://coinsher.com}
+				\item \textbf{Multi-Platform Social Media Application} (2023) - Led React frontend development for social media platform with real-time messaging, content management, and user interaction systems. Coordinated with distributed development team using modern React patterns and hooks.
+				\item \textbf{Enterprise MLM Admin Systems} (2021-2023) - Developed multiple React-based admin dashboards for networking companies, handling complex commission calculations, user hierarchies, and financial reporting with 20k+ peak concurrent users monthly.
+				\item \textbf{University Payment Integration} (2023) - Built React frontend components for university payment system, creating intuitive user interfaces for fee management and transaction processing with seamless API integration.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Mandaue, Cebu}{University of Cebu - LM}{2022 -- Present (part-time)}
+			\begin{itemize}
+				\item BS Computer Engineering, Expected graduation: 2026
+				\item Relevant Coursework: Operating Systems; Databases; Algorithms; Programming Languages; Computer Architecture; Software Engineering
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Leadership \& Professional Development}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Tech Speaker (2025):} Presented "Modern React Development Patterns" and "Rust for Web" at Philippines' first grassroots Rust conference sponsored by The Rust Foundation, educating 100+ developers on full-stack development best practices
+				\item \textbf{Upcoming Tech Speaker (March 2025): } Hosting React and Modern Web Development seminar for graduating Computer Engineering students at University of Cebu, scheduled for March 28, 2025
+				\item \textbf{Hackathon Winner (2024): } Secured 1st place for React-based project proposal and 6th place overall at Google Developer Student Club - Loyola hackathon among 25+ competing teams, demonstrating rapid React prototyping skills
+				\item \textbf{Freelance Consulting:} Extensive experience working with international clients on React projects, including regulated financial industry applications requiring compliance and security standards
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
